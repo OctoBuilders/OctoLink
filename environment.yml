@@ -19,5 +19,14 @@ dependencies:
 - wheel=0.30.0=py36hfd4bba0_1
 - xz=5.2.3=h55aa19d_2
 - zlib=1.2.11=ha838bed_2
+- pip:
+  - click==6.7
+  - flask==0.12.2
+  - flask-sqlalchemy==2.3.2
+  - itsdangerous==0.24
+  - jinja2==2.10
+  - markupsafe==1.0
+  - sqlalchemy==1.2.2
+  - werkzeug==0.14.1
 prefix: /home/tom/anaconda3/envs/octolink
 
