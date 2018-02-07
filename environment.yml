@@ -20,13 +20,22 @@ dependencies:
 - xz=5.2.3=h55aa19d_2
 - zlib=1.2.11=ha838bed_2
 - pip:
+  - aniso8601==2.0.0
+  - chardet==3.0.4
   - click==6.7
   - flask==0.12.2
+  - flask-restful==0.3.6
   - flask-sqlalchemy==2.3.2
+  - idna==2.6
   - itsdangerous==0.24
   - jinja2==2.10
   - markupsafe==1.0
+  - pytz==2017.3
+  - pyyaml==3.12
+  - requests==2.18.4
+  - six==1.11.0
   - sqlalchemy==1.2.2
+  - urllib3==1.22
   - werkzeug==0.14.1
 prefix: /home/tom/anaconda3/envs/octolink
 
