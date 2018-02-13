@@ -3,6 +3,9 @@ from flask_restful import Resource, reqparse
 
 class AddPrinter(Resource):
     def __init__(self):
+        """
+        Initalizes the AddPrinter resource.
+        """
         self.reqparse = reqparse.RequestParser()
         self.reqparse.add_argument('key', type=str, required=True, location='json')
 
@@ -20,8 +23,12 @@ class AddPrinter(Resource):
             print("New Printer at", ip, " with key: ", key)
         return 200
 
+
 class PrintStatus(Resource):
     def __init__(self):
+        """
+        Initalizes the PrintStatus resource.
+        """
         self.reqparse = reqparse.RequestParser()
         self.reqparse.add_argument('status',  type=str, required=True, location='json')
         self.reqparse.add_argument('message', type=str, required=True, location='json')
