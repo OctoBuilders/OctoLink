@@ -1,4 +1,3 @@
-
 from jobs import Job
 
 class Printer():
